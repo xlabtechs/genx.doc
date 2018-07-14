@@ -1,10 +1,12 @@
 ---
 title: " File Config"
 date: 2018-07-10T21:53:36+03:00
-weight: 15
+weight: 30
 ---
 
  ## Multiple Entities
+ You can generate  many entities as the following sample:
+ 
 ```json 
 {
   "entities": [
@@ -18,6 +20,8 @@ weight: 15
 }
 ```
 ## Entity Content
+Inside every entity, you must define the following keys and values:
+
 ### Name:
  Name of Entity ```Model Name```
  

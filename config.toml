@@ -33,7 +33,7 @@ googleAnalytics = ""
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "green"
+    	primary = "blue"
     	accent  = "teal"
 
     [params.font]
@@ -48,41 +48,41 @@ googleAnalytics = ""
 
 
 [[menu.main]]
-	name   = "Material"
+	name   = "Laravel CRUD Generator"
 	url    = "/"
 	weight = 0
 
 [[menu.main]]
     	name   = "CRUD Generator"
     	url    = "generator/"
-    	weight = 5
+    	weight = 10
 
 [[menu.main]]
 	name   = "Getting started"
 	url    = "getting-started/"
-	weight = 10
+	weight = 20
 
 
 [[menu.main]]
     name   = "File Config "
     url    = "configration/"
-    weight = 15
+    weight = 30
 
     [[menu.main]]
         name   = "Fields Config "
         url    = "fields/"
-        weight = 17
+        weight = 40
 
           [[menu.main]]
                 name   = "Fields Sample "
                 url    = "fields-sample/"
-                weight = 18
+                weight = 50
 
 
          [[menu.main]]
                 name   = "Realationship Config "
                  	url    = "relation/"
-                 	weight = 19
+                 	weight = 60
 
 
 

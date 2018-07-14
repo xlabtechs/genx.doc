@@ -1,7 +1,7 @@
 ---
 date: 2016-03-09T00:11:02+01:00
 title: Getting started
-weight: 10
+weight: 20
 ---
 
 ## Installation
@@ -14,8 +14,7 @@ $ php
 
 
 ### Usage
-
- Use this Command Line :
+After downloading this package open the terminal and  use this command line in your project root :
  ```
  php artisan admin:generate:all --sourceType=json --config="sample.json" --force=true
  ```

@@ -1,7 +1,7 @@
 ---
 title: "CRUD Generator"
 date: 2018-07-11T11:01:37+03:00
-weight: 5
+weight: 10
 ---
 
 

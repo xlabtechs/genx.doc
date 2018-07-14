@@ -1,10 +1,11 @@
 ---
 title: "Fields Config "
 date: 2018-07-11T11:21:23+03:00
-  weight = 17
+  weight = 40
 ---
 
-
+You can distinguish between different types of fields and types:
+ 
 ## ID
 ```php
 {
@@ -13,12 +14,7 @@ date: 2018-07-11T11:21:23+03:00
           "dbType": {
             "type": "Integer",
             "primary": true
-          },
-          "viewType": {
-            ....
- 
-          },
-        ....
+          }
         },
 ```
 
@@ -26,7 +22,7 @@ date: 2018-07-11T11:21:23+03:00
 ```php
 {
         
-		"title": "Integer Value",
+          "title": "Integer Value",
           "name": "int_value",
           "dbType": {
             "type": "Integer",
@@ -58,15 +54,15 @@ date: 2018-07-11T11:21:23+03:00
 ```php
 {
         
-		...
+	   .........
           "dbType": {
             "type": "...",
             "default": "default value"
           },
           "viewType": {
-        ...
-          },
          ..........
+          },
+         ............
         }
 ```
 ##  foreign
@@ -77,8 +73,8 @@ date: 2018-07-11T11:21:23+03:00
           "dbType": {
             "type": "Integer",
             "foreign": {
-              "table": "related table name",
-			  "field_view": "view field in related table",
+                "table": "related table name",
+                "field_view": "view field in related table",
              ...
             }
           },
@@ -152,7 +148,7 @@ date: 2018-07-11T11:21:23+03:00
      ....
      
       
-  -``` searchable```      
+## ``` searchable```      
      
       
       { 
@@ -161,7 +157,7 @@ date: 2018-07-11T11:21:23+03:00
         ....
        }
       
- -``` fillable```      
+## ``` fillable```      
      
      
       { 
@@ -169,8 +165,8 @@ date: 2018-07-11T11:21:23+03:00
         "fillable": "true",
         ....
        }
-    
- -``` inForm```      
+     
+## ``` inForm```      
      
     
       { 
@@ -179,7 +175,7 @@ date: 2018-07-11T11:21:23+03:00
         ....
        }
     
- -``` inIndex```      
+## ``` inIndex```      
      
      
       { 
